@@ -2,12 +2,10 @@
 
 > 您的每日 AI 信息整合,分析,日报,播客内容生成平台。
 
-**AI 洞察日报** 是一个基于 **Cloudflare Workers** 驱动的内容聚合与生成平台。它每日为您精选 AI 领域的最新动态，包括行业新闻、热门开源项目、前沿学术论文、科技大V社交媒体言论，并通过 **Google Gemini** 模型进行智能处理与摘要生成，最终自动发布到 GitHub Pages 生成 AI 日报。
+**AI 洞察日报** 是一个基于 **Cloudflare Workers** 驱动的内容聚合与生成平台。它每日为您精选 AI 领域的最新动态，包括行业新闻、热门开源项目和前沿学术论文，并通过 **Google Gemini** 模型进行智能处理与摘要生成，最终自动发布到 GitHub Pages。
 
 我们的目标是成为您在瞬息万变的 AI 浪潮中保持领先的得力助手，让您高效获取最有价值的信息。
 
-> [!NOTE]
-> 日报前端项目已发布2.0： [Hextra-AI-Insight-Daily](https://github.com/justlovemaki/Hextra-AI-Insight-Daily) ，基于 Hugo 加 Hextra主题 构建。
 ---
 
 ## ✨ 核心特性
@@ -25,28 +23,28 @@
 
 无论您是信息的消费者、创造者，还是技术的探索者，「AI 洞察日报」都旨在为您创造独特价值。
 
-### 🧑‍💻 AI 从业者与研究者
+#### 🧑‍💻 AI 从业者与研究者
 > **痛点：** 信息海洋无边无际，筛选关键动态、前沿论文和优质开源项目耗时费力。
 
 **解决方案：**
 *   **✅ 自动化精炼：** 为您提炼每日必读核心内容，并由 AI 生成精辟摘要。
 *   **⏱️ 聚焦核心：** 在 **5 分钟内**快速掌握行业脉搏，将宝贵时间投入到真正重要的工作与研究中。
 
-### 🎙️ 内容创作者与科技媒体人
+#### 🎙️ 内容创作者与科技媒体人
 > **痛点：** 持续输出高质量内容，却苦于选题枯竭和素材搜集的繁琐。
 
 **解决方案：**
 *   **💡 灵感永动机：** 聚合最新资讯，成为您源源不断的灵感源泉。
 *   **🚀 内容半成品：** 利用 Gemini 模型生成结构化的**播客/视频口播稿**，稍作修改即可发布，极大提升创作效率。
 
-### 🛠️ 开发者与技术 DIY 爱好者
+#### 🛠️ 开发者与技术 DIY 爱好者
 > **痛点：** 想学习前沿技术栈（Serverless, AI API），但缺少一个完整、有实际价值的项目来练手。
 
 **解决方案：**
 *   **📖 绝佳学习范例：** 本项目架构清晰、代码开源，是学习如何整合云服务与 AI 模型的绝佳范例。
 *   **🎨 打造个人专属：** 轻松 Fork，通过修改订阅源和 Prompt，将其改造为您个人专属的“Web3 洞察”、“游戏快讯”或“投资摘要”等。
 
-### 🌱 对 AI 充满好奇的终身学习者
+#### 🌱 对 AI 充满好奇的终身学习者
 > **痛点：** AI 领域术语繁多、技术迭代快，想要跟上时代步伐却感到无从下手。
 
 **解决方案：**
@@ -59,49 +57,17 @@
 
 我们提供了多个在线访问地址以及项目成果的播客展示。
 
-### **在线阅读地址：**
+**在线阅读地址：**
 
-#### 💻 网页直达
+*   🌐 **主站点(GitHub Pages )**：[website-1](https://justlovemaki.github.io/CloudFlare-AI-Insight-Daily/today/book/)
+*   📖 **备用站点(Cloudflare)**：[website-2](https://ai-today.justlikemaki.vip/)
 
-无需安装任何应用，直接在浏览器中打开，即刻阅读，支持pc和移动端。
+**内容成果展示：**
 
-*   **唯一主站点 (GitHub Pages)**
-    > [https://ai.hubtoday.app/](https://ai.hubtoday.app/)
-    >
-    > `✅ 推荐` `🚀 访问速度快` 
+*   🎙️ **小宇宙**：[来生小酒馆](https://www.xiaoyuzhoufm.com/podcast/683c62b7c1ca9cf575a5030e)
+*   📹 **抖音**：[来生情报站](https://www.douyin.com/user/MS4wLjABAAAAwpwqPQlu38sO38VyWgw9ZjDEnN4bMR5j8x111UxpseHR9DpB6-CveI5KRXOWuFwG)
 
----
-
-#### 📡 RSS 订阅
-
-将 AI 资讯聚合到您的个人信息流中，高效获取更新。
-
-*   **订阅链接**
-    > [https://justlovemaki.github.io/CloudFlare-AI-Insight-Daily/rss.xml](https://justlovemaki.github.io/CloudFlare-AI-Insight-Daily/rss.xml)
-    >
-    > `⭐ 推荐使用 Feedly, Inoreader, Folo 等现代阅读器订阅`
-
----
-
-#### 📱 微信公众号
-
-适合移动端阅读，每日推送，不再错过精彩内容。
-
-*   **关注方式**
-    > 打开微信，搜索公众号「**何夕2077**」并关注。
-    >
-    > `💬 欢迎在公众号后台与我们交流`
-
-
-### **内容成果展示：**
-
-| 🎙️ **小宇宙** | 📹 **抖音** |
-| --- | --- |
-| [来生小酒馆](https://www.xiaoyuzhoufm.com/podcast/683c62b7c1ca9cf575a5030e)  |   [来生情报站](https://www.douyin.com/user/MS4wLjABAAAAwpwqPQlu38sO38VyWgw9ZjDEnN4bMR5j8x111UxpseHR9DpB6-CveI5KRXOWuFwG)| 
-| ![小酒馆](docs/images/sm2.png "img") | ![情报站](docs/images/sm1.png "img") |
-
-
-### **后台项目截图：**
+**项目截图：**
 
 | 网站首页                               | 日报内容                               | 播客脚本                               |
 | -------------------------------------- | -------------------------------------- | -------------------------------------- |
@@ -111,20 +77,18 @@
 
 ## 🚀 快速开始
 
-> [!NOTE]
 > 本项目优先支持从 [Folo](https://app.follow.is/) 数据源抓取内容。
-> 您只需通过F12获取Folo Cookie，并将其配置到项目中即可在线试用。
+您只需通过F12获取Folo Cookie，并将其配置到项目中即可在线试用。
+Folo Cookie只保留在浏览器，没有安全隐患。
 
-> [!WARNING]
-> 为了保证项目的正常运行，您需要在项目中配置 Folo Cookie。
-> Folo Cookie只保留在浏览器，没有安全隐患。
+> **注意：** 为了保证项目的正常运行，您需要在项目中配置 Folo Cookie。
 
 1.  **获取Folo Cookie**
     
     [![cookie](docs/images/folo-0.png "img")](docs/images/folo-0.png)
 
 2.  **[Demo 地址](https://ai-daily-demo.justlikemaki.workers.dev/getContentHtml)**
-    * 默认账号密码：root/toor
+
 ---
 
 ## 📚 更多文档
@@ -142,7 +106,7 @@
 
 AI 或许能模仿你过去的喜好，却难以捕捉你此刻的灵感与洞见。
 
-`手动勾选`这一步，正是为了保留这份属于“人”的、不断演进的独特视角。它确保了日报的灵魂-`你的思想和判断力`，始终贯穿其中，让每一份日报都成为你当日思考的真实快照。
+`手动勾选`这一步，正是为了保留这份属于“人”的、不断演进的独特视角。它确保了日报的灵魂——**你的思想和判断力**——始终贯穿其中，让每一份日报都成为你当日思考的真实快照。
 
 当然，我们也完全支持并欢迎社区开发者探索全自动化的实现方式。如果你有更棒的想法，请随时提交 Pull Request！
 
@@ -202,7 +166,3 @@ AI 或许能模仿你过去的喜好，却难以捕捉你此刻的灵感与洞�
 5.  **使用风险**：您承诺将合法、合规地使用本项目。任何因您使用不当（如用于商业目的、非法转载、恶意攻击等）而产生的法律责任和风险，均由您自行承担。
 
 6.  **最终解释权**：在法律允许的范围内，本项目团队对本声明拥有最终解释权，并有权根据需要随时进行修改和更新。
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=justlovemaki/CloudFlare-AI-Insight-Daily&type=Timeline)](https://www.star-history.com/#justlovemaki/CloudFlare-AI-Insight-Daily&Timeline)
